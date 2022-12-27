@@ -26,7 +26,7 @@ If bundle size is important to you – and it should be! – React Final Form pr
 
 
 ## formik vs react final form
-![alt "formik vs final form"](/images/formik-vs-finalform.jpg)
+![](/public/images/formik-vs-finalform.jpg)
 
 Benefit in formik:
 We can use "Schema Validation" in form. We use "yup" for this purpose.
