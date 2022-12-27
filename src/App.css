@@ -1,0 +1,123 @@
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+input + label {
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+textarea,
+select {
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 1rem;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type='radio'], input[type='checkbox'] {
+  margin-right: 0.3rem;
+}
+
+button {
+  min-width: 7rem;
+  height: 2rem;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  padding: 0.2rem;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+}
+
+nav {
+  font-size: 1.2rem;
+}
+
+.btnForm {
+  background-color: blue;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+  padding: 0.3rem;
+  margin-top: 1rem;
+}
+
+
+/** Home **/
+.home {
+  padding: 2rem;
+  text-align: justify;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.home ul {
+  margin: 2rem;
+}
+
+.home ul li {
+  padding: 0.5rem;
+}
+
+.selectBtn {
+  font-size: 1.2rem;
+  height: 40px;
+}
+
+.selectWithSpinner {
+  position: relative;
+}
+.slcSpinner {
+  top: -33px;
+}
+
+
+/* Final Form */
+.finalForm {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.finalForm div {
+   margin-bottom: 1.2rem;
+}
+
+.finalInput {
+  border: 1px solid #555;
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+
+.finalForm .error {
+  color: red;
+  font-size: 1rem;
+}
+
+.finalForm .active {
+   background-color: rgb(226, 225, 225);
+   padding: 1rem;
+}
